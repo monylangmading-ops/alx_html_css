@@ -1,0 +1,105 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+nav .img{
+    height: 50px;
+}
+nav .nav-links a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+nav .nav-links a:hover{
+    text-decoration: underline;
+color: #FF6565;
+}
+
+header{
+    height: auto;
+    background-image: url(images/headphones_hero_1.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+
+}
+h1{
+    text-align: center;
+    padding-top: 200px;
+    font-weight: bold;
+    color: white;
+    font-family: sans-serif;
+}
+p{
+     text-align: center;
+     color: white;
+     font-family: sans-serif;
+     padding-bottom: 10px;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+   
+}
+button{
+    color: white;
+    border-radius: 15px;
+    background-color: #FF6565 ;
+    width: 180px;
+    height: 50px;
+}
+.second-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -70px;
+}
+.second-section h1{
+    text-align: center;
+    text-decoration: none;
+     color: black ;
+     font-family: sans-serif;
+     margin-top: 0px;
+}
+.second-section p{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+}
+.icon-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 70px;
+    padding: 40px;
+}
+.holberton_school-icon-ic_sound{
+    font-size: 100px;
+    color: #FF6565;
+    margin-left: 90px;
+}
+.holberton_school-icon-ic_video{
+    font-size: 100px;
+    color: #FF6565;
+    margin-left: 90px;
+}
+.holberton_school-icon-ic_hearing{
+    font-size: 100px;
+    color: #FF6565;
+    margin-left: 90px;
+}
+.holberton_school-icon-ic_music{
+    font-size: 100px;
+    color: #FF6565;
+    margin-left: 90px;
+}
+.icon-container p{
+    color: black;
+    font-family: sans-serif;
+}
